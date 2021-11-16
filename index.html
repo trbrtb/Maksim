@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+	<script src="./js/pass.js"></script>
 	<meta charset="UTF-8">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,12 +12,21 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/passstyle.css">
 	<link rel="stylesheet" href="./css/null.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Долги Юраса</title>
 </head>
 
 <body>
+	<div id="password">
+		<div id="pass-window">
+			<div class="input_text">Пожалуйста, введите пароль:</div>
+			<input id="pass" type="text" />
+			<div id="button"><input type="button" value="Принять" onClick="javascript:Accept();" /></div>
+		</div>
+	</div>
+	<div id="mask"></div>
 	<div class="container">
 		<div class="header">
 			<a href="https://www.gonibablo.ml/dolg" class="">
